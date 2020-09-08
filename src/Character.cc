@@ -46,7 +46,7 @@ std::string Character::GetLore() const
 
 void Character::GetDamage(short int damage)
 {
-    health -= (health - damage) >= 0 ? damage : 0;
+    health -= (health - damage) >= 0 ? damage : 0;    
 }
 
 void Character::SetLore(std::string lore)
